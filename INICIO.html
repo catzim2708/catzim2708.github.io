@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Inicio - Conciencia Ambiental</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('https://thumbs.dreamstime.com/b/fondo-de-la-contaminaci%C3%B3n-ambiental-ejemplo-del-vector-50041880.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            animation: fadeInBody 2s ease-in;
+        }
+
+        /* Animación de entrada */
+        @keyframes fadeInBody {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px 20px;
+            text-align: center;
+            color: #8ef08e;
+            box-shadow: 0 0 20px rgba(0, 255, 100, 0.3);
+            animation: slideInDown 1.5s ease;
+        }
+
+        @keyframes slideInDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.75);
+            margin: 40px auto;
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 1000px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
+            animation: fadeInContainer 2s ease;
+        }
+
+        @keyframes fadeInContainer {
+            from { opacity: 0; transform: scale(0.98); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        h1, h2 {
+            color: #8ef08e;
+            text-shadow: 1px 1px 3px black;
+            margin-top: 20px;
+            transition: color 0.3s ease;
+        }
+
+        h2:hover {
+            color: #aaffaa;
+        }
+
+        p, li {
+            font-size: 18px;
+            line-height: 1.6;
+            transition: transform 0.3s;
+        }
+
+        li:hover {
+            transform: translateX(5px);
+        }
+
+        iframe {
+            width: 100%;
+            border-radius: 12px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            transition: transform 0.5s ease;
+        }
+
+        iframe:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Conciencia Ambiental</h1>
+    </header>
+
+    <div class="container">
+        <h2>La importancia de cuidar el medio ambiente</h2>
+        <p>El mundo está enfrentando problemas ambientales graves como la contaminación, la deforestación y el cambio climático. Nuestra misión es sensibilizar sobre estas problemáticas y proporcionar soluciones prácticas.</p>
+        
+        <h2>Estadísticas sobre contaminación</h2>
+        <p>¿Sabías que?</p>
+        <ul>
+            <li>Cerca del 91% de la población mundial vive en lugares donde la calidad del aire excede los límites recomendados por la OMS.</li>
+            <li>El 80% de la contaminación marina proviene de fuentes terrestres, como los plásticos y los desechos industriales.</li>
+            <li>Más de 1 millón de especies de animales y plantas están en peligro debido a la deforestación y la pérdida de hábitats.</li>
+        </ul>
+
+        <h2>Video introductorio</h2>
+        <iframe src="https://www.youtube.com/embed/TV-YEQOIFuQ" allowfullscreen></iframe>
+
+        <h2>Consejos para vivir de manera más sostenible</h2>
+        <ul>
+            <li>Utiliza productos biodegradables.</li>
+            <li>Recicla y reutiliza siempre que sea posible.</li>
+            <li>Reduce el consumo de energía eléctrica.</li>
+            <li>Participa en campañas de limpieza y reforestación.</li>
+        </ul>
+
+        <h2>¿Sabías qué?</h2>
+        <p>El reciclaje no solo reduce la cantidad de basura, sino que también ahorra energía y recursos. Al reciclar papel, por ejemplo, se ahorran hasta 17 árboles por tonelada de papel reciclado.</p>
+
+        <h2>Video adicional</h2>
+        <iframe src="https://www.youtube.com/embed/sx0yOuU0NzY" allowfullscreen></iframe>
+    </div>
+</body>
+</html>

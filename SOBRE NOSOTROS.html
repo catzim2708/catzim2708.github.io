@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros - Conciencia Ambiental</title>
+    <style>
+        /* Tipografía general y colores base */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1fdf4;
+            color: #333;
+            animation: fadeIn 1.5s ease;
+        }
+
+        /* Animaciones clave */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        /* Encabezado */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #6edc88, #b2f7c1);
+            color: #fff;
+            animation: slideInUp 1s ease-out;
+            border-bottom: 5px solid #4fba6f;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            animation: slideInUp 1s ease-out;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #4caf50;
+            margin-top: 30px;
+            animation: fadeIn 1.2s ease;
+        }
+
+        p, li {
+            font-size: 18px;
+            line-height: 1.7;
+            animation: fadeIn 1.5s ease;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        iframe, img {
+            width: 100%;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+            animation: pulse 4s infinite;
+        }
+
+        iframe:hover, img:hover {
+            transform: scale(1.03);
+        }
+
+        .highlight {
+            background: #e7fce9;
+            border-left: 5px solid #4caf50;
+            padding: 15px;
+            margin: 30px 0;
+            border-radius: 10px;
+            font-weight: bold;
+            animation: fadeIn 1.8s ease;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #4caf50;
+            color: white;
+            border-top: 3px solid #3b9441;
+            margin-top: 50px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sobre Nosotros</h1>
+    </header>
+
+    <div class="content">
+        <h2>¿Quiénes Somos?</h2>
+        <p>Somos una organización sin fines de lucro dedicada a fomentar la conciencia ambiental en la sociedad. Nuestro enfoque está en la educación ecológica, acciones comunitarias y la preservación de los recursos naturales.</p>
+
+        <div class="highlight">
+            🌿 <strong>Creemos en un planeta más limpio, más verde y más justo para todos.</strong>
+        </div>
+
+        <h2>¿Qué Hacemos?</h2>
+        <p>Trabajamos con escuelas, comunidades y voluntarios para organizar actividades como:</p>
+        <ul>
+            <li>Charlas y talleres educativos sobre sostenibilidad.</li>
+            <li>Jornadas de recolección de residuos en playas y parques.</li>
+            <li>Campañas para reducir el uso de plásticos de un solo uso.</li>
+            <li>Reforestación en zonas afectadas por la deforestación.</li>
+        </ul>
+
+        <h2>Impacto</h2>
+        <p>Desde el año 2010, hemos liderado más de 500 actividades ambientales en todo el país. Miles de árboles plantados, toneladas de residuos reciclados y cientos de escuelas comprometidas con el cambio.</p>
+
+        <div class="highlight">
+            💪 Más de 12,000 voluntarios y contando. ¡Tú puedes ser parte del cambio!
+        </div>
+
+        <h2>Video: Acciones contra la contaminación</h2>
+        <iframe src="https://www.youtube.com/embed/9HHxVhZwXoQ" allowfullscreen></iframe>
+
+        <h2>Imagen: Contaminación del suelo</h2>
+        <img src="http://blog.espol.edu.ec/mjrojas/files/2013/07/contaminacion-suelo.jpg" alt="Contaminación del suelo">
+
+        <h2>Imagen: Personas recogiendo basura</h2>
+        <img src="https://st2.depositphotos.com/1518767/6897/i/950/depositphotos_68974283-stock-photo-environmental-activists-picking-up-trash.jpg" alt="Personas contra la contaminación">
+
+        <h2>¿Quieres Unirte?</h2>
+        <p>¡Estamos siempre en busca de más corazones verdes! Si deseas sumarte a nuestras campañas, ser voluntario o donar, contáctanos por nuestras redes o sitio oficial.</p>
+    </div>
+
+    <footer>
+        © 2025 Conciencia Ambiental · Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
